@@ -68,4 +68,4 @@ The following rules will be created:
 - SSH outbound (destination port 22)
 - SSH inbound (port 22)
 
-Each rule allows by default the following IP adresses: `["0.0.0.0/0", "::/0"]`. It is possible to lock this down further by overwriting the various variables available for each rule set.
+Each rule allows by default the following IP addresses: `["0.0.0.0/0", "::/0"]`. It is possible to lock this down further by overwriting the various variables available for each rule set.
