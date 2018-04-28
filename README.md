@@ -28,7 +28,7 @@ resource "digitalocean_tag" "environment" {
 }
 
 module "default-firewall" {
-    source  = "thojkooi/base-firewall-rules/digitalocean"
+    source  = "thojkooi/firewall-rules/digitalocean"
     version = "1.0.0"
 
     prefix  = "dev"
@@ -47,7 +47,7 @@ resource "digitalocean_tag" "environment" {
 }
 
 module "default-firewall" {
-    source  = "thojkooi/base-firewall-rules/digitalocean"
+    source  = "thojkooi/firewall-rules/digitalocean"
     version = "1.0.0"
 
     prefix                         = "dev"
